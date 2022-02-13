@@ -1,0 +1,36 @@
+/* .board defines the area for the game board. .box styles each button box. */
+/*  .gameMessage is the message status area */
+body {
+    text-align: center;
+    margin: 80px;
+}
+
+.gameBox {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 250px;
+    margin: 20px auto;
+    background-color: #4b4c4c;
+    color: magenta;
+}
+
+.box {
+    font-family: "Permanent Marker", normal;
+    width: 80px;
+    height: 80px;
+    border: 2px solid lightpink;
+    cursor: pointer;
+    line-height: 80px;
+    font-size: 60px;
+}
+.gameMessage {
+    font-size: 50px;
+    color: black;
+    margin: 20px auto;
+}
+
+
